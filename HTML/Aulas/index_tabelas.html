@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Tabelas dos Produtos</h2>
+    <hr>
+
+    <table border="2" width="100%">
+        <!-- quando se usa a porcentagem no width ele ocupa o tanto na tela-->
+        <tr>
+            <!--o <tr> se usa para criar as linhas das tabelas-->
+            <!--<td> se coloca os dados da tabelas, as colunas-->
+            <!--<th> se usa para colocar o cabeçalho de uma tabela, coloca ela em negrito e centraliza-->
+            <th>Codigo</th>
+            <th>Produto</th>
+            <th>Preco</th>
+            <th>Descricao</th>
+        </tr>
+        
+        <tr>
+            <td>0001</td>
+            <td>Notebook</td>
+            <td>R$1000,00</td>
+            <td>Notebook porco</td>
+        </tr>
+        <tr>
+            <td>0002</td>
+            <td><a href="">
+                PC
+            </a></td>
+            <td>R$8000,00</td>
+            <td>ta porra mt foda</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <!-- mesma coisa com o colspan so q o rowspan é das linhas-->
+            <td colspan="3">Cupom 1 - 10%</td>
+            <!-- o colspan se usa para colocar quantas colunas esse dado vai ocupar-->
+        </tr>
+        <tr>
+            
+            <td colspan="3">Cupom 2 - 15%</td>
+            
+        </tr>
+
+        <tr>
+            <td>Total</td>
+            <td colspan="3">R$8532,00</td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>

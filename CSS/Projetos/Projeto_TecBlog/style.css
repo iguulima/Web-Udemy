@@ -1,0 +1,103 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+#cabecalho{
+    background-color: rgb(255, 187, 0);
+    text-align: center;
+    
+}
+
+#cabecalho h1{
+    font-size:45px;
+    padding: 30px;
+    
+}
+
+.nav{
+    padding: 0px 0px 30px 0px;
+    color: white;;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 25px;
+    margin: 0px;
+}
+
+.branco{
+    color:rgb(211, 211, 211);
+}
+
+a:hover{
+    color: rgb(255, 187, 0);
+    background-color: #e6e6e6;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+
+}
+#conteudo{
+    background-color: rgb(235, 235, 235);
+    width: 660px;
+    float: left;
+}
+
+img{
+    margin: 20px 0px;
+}
+
+h2{
+    color:rgb(255, 187, 0);
+    margin-top: 20px;
+}
+
+#barralateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    background-color: #ccc;
+    padding:15px;
+}
+
+.barralateral{
+    
+}
+
+
+.barralateral h3{
+    color: gray;
+    background: #ccc;
+    margin: 20px 0px 10px 0px;
+    padding: 5px;
+}
+
+.barralateral p{
+    font-size: 15px;
+}
+
+.barralateral a{
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+    margin: 3px;
+    padding: 0;
+}
+
+.barralateral hr{
+    margin: 10px;
+}
